@@ -11,4 +11,3 @@
 
 ![饼状图](https://user-images.githubusercontent.com/24707934/155863762-9bb1bcf8-0191-4538-bbcb-cdbfac96f76f.png)
 
-![iOS安卓技术交流微信群](https://user-images.githubusercontent.com/24707934/155863810-32072f2f-36f7-46cc-94b9-3dcd03079c73.png)
