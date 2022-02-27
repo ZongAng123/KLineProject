@@ -1,0 +1,35 @@
+//
+//  PrefixHeader.pch
+//  KLineProject
+//
+//  Created by 纵昂 on 2022/2/25.
+//  纵昂简书:https://www.jianshu.com/u/88de89f5cc2c
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#import "KLineProject-Bridging-Header.h" //全局引入吧，方便
+
+#define ssRGB(r, g, b)             [UIColor colorWithRed:((r) / 255.0) green:((g) / 255.0) blue:((b) / 255.0) alpha:1.0]
+#define ssRGBAlpha(r, g, b, a)     [UIColor colorWithRed:((r) / 255.0) green:((g) / 255.0) blue:((b) / 255.0) alpha:(a)]
+
+#define SCREEN_WIDTH         [[UIScreen mainScreen] bounds].size.width
+#define SCREEN_HEIGHT        [[UIScreen mainScreen] bounds].size.height
+
+// 状态栏高度
+#define STATUSBAR_HEIGHT     [[UIApplication sharedApplication] statusBarFrame].size.height
+// 导航栏高度
+#define NAVBAR_HEIGHT        44.0
+// 状态栏+导航栏高度
+#define NAV_HEIGHT           (STATUSBAR_HEIGHT + NAVBAR_HEIGHT)
+// tabBar高度
+#define TABBAR_HEIGHT        (STATUSBAR_HEIGHT > 20.0 ? 83.0 : 49.0)
+#define TABBAR_BOTTOM_HEIGHT (STATUSBAR_HEIGHT > 20.0 ? 34.0 : 0)
+
+
+
+#endif /* PrefixHeader_pch */

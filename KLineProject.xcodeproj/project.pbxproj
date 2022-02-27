@@ -7,8 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		740A035927C8AFEE0081F700 /* ZALineChartViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 740A035827C8AFEE0081F700 /* ZALineChartViewController.m */; };
+		740A036027C8BB5E0081F700 /* CustNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 740A035F27C8BB5E0081F700 /* CustNavigationController.m */; };
+		7428AB7527C85E17007CA349 /* TestQiaojie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7428AB7427C85E17007CA349 /* TestQiaojie.swift */; };
+		7428AB7927C8607B007CA349 /* LineChartsController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7428AB7827C8607B007CA349 /* LineChartsController.m */; };
+		7428AB7C27C86090007CA349 /* PieChartsController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7428AB7B27C86090007CA349 /* PieChartsController.m */; };
+		7428AB7F27C860AA007CA349 /* BarChartsController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7428AB7E27C860AA007CA349 /* BarChartsController.m */; };
+		7428AB8227C86561007CA349 /* HorizontalBarChartController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7428AB8127C86561007CA349 /* HorizontalBarChartController.m */; };
+		7428AB8527C8666E007CA349 /* RadarChartController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7428AB8427C8666E007CA349 /* RadarChartController.m */; };
+		7428AB8827C86753007CA349 /* BubbleChartController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7428AB8727C86753007CA349 /* BubbleChartController.m */; };
+		7428AB8C27C86965007CA349 /* ModelController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7428AB8B27C86965007CA349 /* ModelController.m */; };
+		7428AB9727C87209007CA349 /* CandleStickChartController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7428AB9627C87209007CA349 /* CandleStickChartController.m */; };
+		7428AB9A27C87C80007CA349 /* CombinedChartViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7428AB9927C87C80007CA349 /* CombinedChartViewController.m */; };
+		7428ABA027C88AA9007CA349 /* GWLLineChartViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7428AB9F27C88AA9007CA349 /* GWLLineChartViewController.m */; };
 		742C3BAE27C730DE00623C6E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 742C3BAD27C730DE00623C6E /* AppDelegate.m */; };
-		742C3BB127C730DE00623C6E /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 742C3BB027C730DE00623C6E /* SceneDelegate.m */; };
 		742C3BB427C730DE00623C6E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 742C3BB327C730DE00623C6E /* ViewController.m */; };
 		742C3BB727C730DE00623C6E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 742C3BB527C730DE00623C6E /* Main.storyboard */; };
 		742C3BB927C730DF00623C6E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 742C3BB827C730DF00623C6E /* Assets.xcassets */; };
@@ -17,6 +29,7 @@
 		742C3BC927C730E000623C6E /* KLineProjectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 742C3BC827C730E000623C6E /* KLineProjectTests.m */; };
 		742C3BD327C730E000623C6E /* KLineProjectUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 742C3BD227C730E000623C6E /* KLineProjectUITests.m */; };
 		742C3BD527C730E000623C6E /* KLineProjectUITestsLaunchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 742C3BD427C730E000623C6E /* KLineProjectUITestsLaunchTests.m */; };
+		EBE2A360E1E009F8E70B02BE /* Pods_KLineProject.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A76B75556911754005E316EE /* Pods_KLineProject.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,11 +50,37 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		48022EDC7EA1D30578E7150B /* Pods-KLineProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KLineProject.debug.xcconfig"; path = "Target Support Files/Pods-KLineProject/Pods-KLineProject.debug.xcconfig"; sourceTree = "<group>"; };
+		740A035727C8AFEE0081F700 /* ZALineChartViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZALineChartViewController.h; sourceTree = "<group>"; };
+		740A035827C8AFEE0081F700 /* ZALineChartViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZALineChartViewController.m; sourceTree = "<group>"; };
+		740A035E27C8BB5E0081F700 /* CustNavigationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CustNavigationController.h; sourceTree = "<group>"; };
+		740A035F27C8BB5E0081F700 /* CustNavigationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustNavigationController.m; sourceTree = "<group>"; };
+		7428AB7327C85E16007CA349 /* KLineProject-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "KLineProject-Bridging-Header.h"; sourceTree = "<group>"; };
+		7428AB7427C85E17007CA349 /* TestQiaojie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestQiaojie.swift; sourceTree = "<group>"; };
+		7428AB7727C8607B007CA349 /* LineChartsController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LineChartsController.h; sourceTree = "<group>"; };
+		7428AB7827C8607B007CA349 /* LineChartsController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LineChartsController.m; sourceTree = "<group>"; };
+		7428AB7A27C86090007CA349 /* PieChartsController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PieChartsController.h; sourceTree = "<group>"; };
+		7428AB7B27C86090007CA349 /* PieChartsController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PieChartsController.m; sourceTree = "<group>"; };
+		7428AB7D27C860AA007CA349 /* BarChartsController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BarChartsController.h; sourceTree = "<group>"; };
+		7428AB7E27C860AA007CA349 /* BarChartsController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BarChartsController.m; sourceTree = "<group>"; };
+		7428AB8027C86561007CA349 /* HorizontalBarChartController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HorizontalBarChartController.h; sourceTree = "<group>"; };
+		7428AB8127C86561007CA349 /* HorizontalBarChartController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HorizontalBarChartController.m; sourceTree = "<group>"; };
+		7428AB8327C8666E007CA349 /* RadarChartController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RadarChartController.h; sourceTree = "<group>"; };
+		7428AB8427C8666E007CA349 /* RadarChartController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RadarChartController.m; sourceTree = "<group>"; };
+		7428AB8627C86753007CA349 /* BubbleChartController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BubbleChartController.h; sourceTree = "<group>"; };
+		7428AB8727C86753007CA349 /* BubbleChartController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BubbleChartController.m; sourceTree = "<group>"; };
+		7428AB8927C86781007CA349 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		7428AB8A27C86965007CA349 /* ModelController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ModelController.h; sourceTree = "<group>"; };
+		7428AB8B27C86965007CA349 /* ModelController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ModelController.m; sourceTree = "<group>"; };
+		7428AB9527C87209007CA349 /* CandleStickChartController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CandleStickChartController.h; sourceTree = "<group>"; };
+		7428AB9627C87209007CA349 /* CandleStickChartController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CandleStickChartController.m; sourceTree = "<group>"; };
+		7428AB9827C87C80007CA349 /* CombinedChartViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CombinedChartViewController.h; sourceTree = "<group>"; };
+		7428AB9927C87C80007CA349 /* CombinedChartViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CombinedChartViewController.m; sourceTree = "<group>"; };
+		7428AB9E27C88AA9007CA349 /* GWLLineChartViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GWLLineChartViewController.h; sourceTree = "<group>"; };
+		7428AB9F27C88AA9007CA349 /* GWLLineChartViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GWLLineChartViewController.m; sourceTree = "<group>"; };
 		742C3BA927C730DE00623C6E /* KLineProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KLineProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		742C3BAC27C730DE00623C6E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		742C3BAD27C730DE00623C6E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		742C3BAF27C730DE00623C6E /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
-		742C3BB027C730DE00623C6E /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
 		742C3BB227C730DE00623C6E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		742C3BB327C730DE00623C6E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		742C3BB627C730DE00623C6E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -54,6 +93,8 @@
 		742C3BCE27C730E000623C6E /* KLineProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KLineProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		742C3BD227C730E000623C6E /* KLineProjectUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KLineProjectUITests.m; sourceTree = "<group>"; };
 		742C3BD427C730E000623C6E /* KLineProjectUITestsLaunchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KLineProjectUITestsLaunchTests.m; sourceTree = "<group>"; };
+		A76B75556911754005E316EE /* Pods_KLineProject.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KLineProject.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D2C5AC9ED3341912E963C1F8 /* Pods-KLineProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KLineProject.release.xcconfig"; path = "Target Support Files/Pods-KLineProject/Pods-KLineProject.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +102,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EBE2A360E1E009F8E70B02BE /* Pods_KLineProject.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +123,51 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		740A035A27C8B9C80081F700 /* UINavigationCustom(导航) */ = {
+			isa = PBXGroup;
+			children = (
+				740A035E27C8BB5E0081F700 /* CustNavigationController.h */,
+				740A035F27C8BB5E0081F700 /* CustNavigationController.m */,
+			);
+			path = "UINavigationCustom(导航)";
+			sourceTree = "<group>";
+		};
+		740A036127C8D05A0081F700 /* Image(预览图) */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Image(预览图)";
+			sourceTree = "<group>";
+		};
+		7428AB7627C86062007CA349 /* Chart(图表) */ = {
+			isa = PBXGroup;
+			children = (
+				7428AB7727C8607B007CA349 /* LineChartsController.h */,
+				7428AB7827C8607B007CA349 /* LineChartsController.m */,
+				7428AB9E27C88AA9007CA349 /* GWLLineChartViewController.h */,
+				7428AB9F27C88AA9007CA349 /* GWLLineChartViewController.m */,
+				740A035727C8AFEE0081F700 /* ZALineChartViewController.h */,
+				740A035827C8AFEE0081F700 /* ZALineChartViewController.m */,
+				7428AB7A27C86090007CA349 /* PieChartsController.h */,
+				7428AB7B27C86090007CA349 /* PieChartsController.m */,
+				7428AB7D27C860AA007CA349 /* BarChartsController.h */,
+				7428AB7E27C860AA007CA349 /* BarChartsController.m */,
+				7428AB8027C86561007CA349 /* HorizontalBarChartController.h */,
+				7428AB8127C86561007CA349 /* HorizontalBarChartController.m */,
+				7428AB8327C8666E007CA349 /* RadarChartController.h */,
+				7428AB8427C8666E007CA349 /* RadarChartController.m */,
+				7428AB8627C86753007CA349 /* BubbleChartController.h */,
+				7428AB8727C86753007CA349 /* BubbleChartController.m */,
+				7428AB8A27C86965007CA349 /* ModelController.h */,
+				7428AB8B27C86965007CA349 /* ModelController.m */,
+				7428AB9527C87209007CA349 /* CandleStickChartController.h */,
+				7428AB9627C87209007CA349 /* CandleStickChartController.m */,
+				7428AB9827C87C80007CA349 /* CombinedChartViewController.h */,
+				7428AB9927C87C80007CA349 /* CombinedChartViewController.m */,
+			);
+			path = "Chart(图表)";
+			sourceTree = "<group>";
+		};
 		742C3BA027C730DD00623C6E = {
 			isa = PBXGroup;
 			children = (
@@ -88,6 +175,8 @@
 				742C3BC727C730E000623C6E /* KLineProjectTests */,
 				742C3BD127C730E000623C6E /* KLineProjectUITests */,
 				742C3BAA27C730DE00623C6E /* Products */,
+				C3ED385B7E1B5388EBAFC6F8 /* Pods */,
+				B1CC58432BE8CEE66815389A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -104,10 +193,11 @@
 		742C3BAB27C730DE00623C6E /* KLineProject */ = {
 			isa = PBXGroup;
 			children = (
+				740A036127C8D05A0081F700 /* Image(预览图) */,
+				740A035A27C8B9C80081F700 /* UINavigationCustom(导航) */,
+				7428AB7627C86062007CA349 /* Chart(图表) */,
 				742C3BAC27C730DE00623C6E /* AppDelegate.h */,
 				742C3BAD27C730DE00623C6E /* AppDelegate.m */,
-				742C3BAF27C730DE00623C6E /* SceneDelegate.h */,
-				742C3BB027C730DE00623C6E /* SceneDelegate.m */,
 				742C3BB227C730DE00623C6E /* ViewController.h */,
 				742C3BB327C730DE00623C6E /* ViewController.m */,
 				742C3BB527C730DE00623C6E /* Main.storyboard */,
@@ -115,6 +205,9 @@
 				742C3BBA27C730DF00623C6E /* LaunchScreen.storyboard */,
 				742C3BBD27C730DF00623C6E /* Info.plist */,
 				742C3BBE27C730DF00623C6E /* main.m */,
+				7428AB7427C85E17007CA349 /* TestQiaojie.swift */,
+				7428AB7327C85E16007CA349 /* KLineProject-Bridging-Header.h */,
+				7428AB8927C86781007CA349 /* PrefixHeader.pch */,
 			);
 			path = KLineProject;
 			sourceTree = "<group>";
@@ -136,6 +229,23 @@
 			path = KLineProjectUITests;
 			sourceTree = "<group>";
 		};
+		B1CC58432BE8CEE66815389A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A76B75556911754005E316EE /* Pods_KLineProject.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C3ED385B7E1B5388EBAFC6F8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				48022EDC7EA1D30578E7150B /* Pods-KLineProject.debug.xcconfig */,
+				D2C5AC9ED3341912E963C1F8 /* Pods-KLineProject.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -143,9 +253,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 742C3BD827C730E000623C6E /* Build configuration list for PBXNativeTarget "KLineProject" */;
 			buildPhases = (
+				A6987F85E413B212A4047D4F /* [CP] Check Pods Manifest.lock */,
 				742C3BA527C730DE00623C6E /* Sources */,
 				742C3BA627C730DE00623C6E /* Frameworks */,
 				742C3BA727C730DE00623C6E /* Resources */,
+				648A4559978D2FE43624D65E /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -203,6 +315,7 @@
 				TargetAttributes = {
 					742C3BA827C730DE00623C6E = {
 						CreatedOnToolsVersion = 13.2.1;
+						LastSwiftMigration = 1320;
 					};
 					742C3BC327C730E000623C6E = {
 						CreatedOnToolsVersion = 13.2.1;
@@ -261,15 +374,69 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		648A4559978D2FE43624D65E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-KLineProject/Pods-KLineProject-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-KLineProject/Pods-KLineProject-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-KLineProject/Pods-KLineProject-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A6987F85E413B212A4047D4F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-KLineProject-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		742C3BA527C730DE00623C6E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				740A036027C8BB5E0081F700 /* CustNavigationController.m in Sources */,
+				7428AB7F27C860AA007CA349 /* BarChartsController.m in Sources */,
 				742C3BB427C730DE00623C6E /* ViewController.m in Sources */,
+				7428ABA027C88AA9007CA349 /* GWLLineChartViewController.m in Sources */,
+				7428AB9A27C87C80007CA349 /* CombinedChartViewController.m in Sources */,
+				7428AB9727C87209007CA349 /* CandleStickChartController.m in Sources */,
+				7428AB7C27C86090007CA349 /* PieChartsController.m in Sources */,
 				742C3BAE27C730DE00623C6E /* AppDelegate.m in Sources */,
+				740A035927C8AFEE0081F700 /* ZALineChartViewController.m in Sources */,
+				7428AB7927C8607B007CA349 /* LineChartsController.m in Sources */,
+				7428AB8C27C86965007CA349 /* ModelController.m in Sources */,
+				7428AB8527C8666E007CA349 /* RadarChartController.m in Sources */,
+				7428AB7527C85E17007CA349 /* TestQiaojie.swift in Sources */,
+				7428AB8227C86561007CA349 /* HorizontalBarChartController.m in Sources */,
+				7428AB8827C86753007CA349 /* BubbleChartController.m in Sources */,
 				742C3BBF27C730DF00623C6E /* main.m in Sources */,
-				742C3BB127C730DE00623C6E /* SceneDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -439,14 +606,18 @@
 		};
 		742C3BD927C730E000623C6E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 48022EDC7EA1D30578E7150B /* Pods-KLineProject.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 2A25VJ2LV5;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/KLineProject/PrefixHeader.pch";
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = KLineProject/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "iOSCharts图库";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -460,20 +631,27 @@
 				PRODUCT_BUNDLE_IDENTIFIER = zongang.KLineProject;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				SWIFT_OBJC_BRIDGING_HEADER = "KLineProject/KLineProject-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		742C3BDA27C730E000623C6E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D2C5AC9ED3341912E963C1F8 /* Pods-KLineProject.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 2A25VJ2LV5;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/KLineProject/PrefixHeader.pch";
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = KLineProject/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "iOSCharts图库";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -487,13 +665,16 @@
 				PRODUCT_BUNDLE_IDENTIFIER = zongang.KLineProject;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				SWIFT_OBJC_BRIDGING_HEADER = "KLineProject/KLineProject-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
 		742C3BDC27C730E000623C6E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -512,6 +693,7 @@
 		742C3BDD27C730E000623C6E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -530,6 +712,7 @@
 		742C3BDF27C730E000623C6E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 2A25VJ2LV5;
@@ -546,6 +729,7 @@
 		742C3BE027C730E000623C6E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 2A25VJ2LV5;
